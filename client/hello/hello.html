@@ -1,0 +1,9 @@
+<template name="hello">
+    <a href="/admin">Admin panel</a>
+    <h2>Posts:</h2>
+    {{#each posts}}
+        <h3>{{title}}</h3>
+        <p>{{content}}</p>
+        <hr/>
+    {{/each}}
+</template>

@@ -1,0 +1,10 @@
+<template name='login'>
+    {{#if currentUser}}
+        <button value="logout" class="btn" id="logout">
+            <i class="fa fa-sign-out"></i>
+            Logout
+        </button>
+    {{else}}
+        {{>atForm}}
+    {{/if}}
+</template>
